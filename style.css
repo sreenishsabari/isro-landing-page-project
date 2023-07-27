@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Helvetica, "Verdana Arial", sans-serif;
+  width: 100vw;
+}
+.isro-container {
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(2, 23, 68);
+  color: #fff;
+}
+.text-img {
+  width: 50%;
+  border-radius: 50%;
+  border: 3px solid royalblue;
+}
+.heading-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: "verdana", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.portal-sec-container {
+  font-weight: 400;
+  font-family: "verdana", serif;
+  padding-bottom: 6px;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.text-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-gallery {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading {
+  margin-left: 1rem;
+}
+.gallerycolumn:hover {
+  background-color: #03398a;
+}
+.gallerycolumn {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.gallerycolumn .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: rgb(189, 229, 252);
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 0%;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+.gallerycolumn:hover .tooltiptext {
+  visibility: visible;
+}
